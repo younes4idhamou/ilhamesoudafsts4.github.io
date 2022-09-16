@@ -1,0 +1,66 @@
+{"intents": [
+
+   {"tag": "salutation",
+   "patterns": ["Bonjour", "salut", "Bonsoir","Hi","Hola", "Hello", "bonne journée"],
+   "responses": ["Bonjour", "C'est bon de vous revoir", "Bonjour, je suis là pour vous","Bonjour,comment je peux vous aider"],
+   "context": [""]
+    },
+     {"tag": "au revoir",
+     "patterns": ["Bye", "au revoir", "À plus tard", "à bientôt", "on discute après, au revoir"],
+     "responses": ["À plus tard!", " bonne journée, au revoir", "Au revoir! Revenez bientôt.","à bientôt"],
+     "context": [""]
+    },
+      {"tag": "Merci",
+     "patterns": ["merci", "Merci beaucoup", "Merci infiniment"],
+     "responses": ["Heureux de vous aider!", "Bienvenue,À tout moment!", "Avec plaisir","je vous en pris","je suis là pour vous."],
+     "context": [""]
+      },
+       {"tag": "centre entrainement",
+       "patterns": ["quelles sont vos centre d'entrainement"],
+       "responses": ["Certifications informatiques,Conseil,encadrement"],
+       "context": [""]
+       },
+       {"tag": "centre_de_compétance",
+       "patterns": ["quelles sont  vos centre de compétance"],
+       "responses": ["Nous nous spécialisons dans l'utilisation de tests de compétences de scénarios modernes et éprouvés pour choisir parmi le TOP 1% des talents informatiques au Maro ","Nous croyons que :  Le meilleur candidat = les meilleures compétences + un excellent leadership + une attitude exceptionnelle."],
+       "context": [""]
+       },
+       {"tag": "Services",
+       "patterns": ["Quels sont vos services ?"],
+       "responses": ["Les Services de la socièté sont : Consulting IT, Portage salariale, Offshoring, Formation, Starupping "],
+       "context": [""]
+       },
+       {"tag": "plus_informations",
+       "patterns": ["savoir des informations sur vos service?","j'aimerais  bien savoir quelques informations sur votre société architeo","plus infromations sur vos service"],
+       "responses": [" Bienvenue sur architeo est un service de conseil informatiques nous vous proposez énorméments d'offres","nous sommes là pour vous entendre et vous aider à atteindre le sommet de votre entreprise"],
+       "context": [""]
+       },
+       {"tag": " type_Condidat",
+       "patterns": ["je suis un condidat ","condidat","je suis étudiant et je suis à la recherche de stage","je suis lauréat et je cherche un emplois"],
+       "responses": ["quelle type de condidat vous voulez postulez?","quelle type de condidature vous voulez postulez"],
+       "context": [""]
+       },
+       {"tag": "profil",
+  "patterns": ["je voulais postulé un condidature d'offre" ,"je voulais postulé un condidature d'offre","condidat offre"],
+  "responses": ["profil" ],
+  "context": [""]
+ },
+
+{"tag": "rendez-vous",
+"patterns": ["rendez-vous","je voulais un rendez-vous","un rendez-vous"],
+"responses": ["vous voulez un rendez-vous" ],
+"context": [""]
+},
+{"tag": "partenariat",
+"patterns": ["je voulais etre un partenariat","je suis un recurteur je cherche des profils","oui je voualais etre par vous","partenaire"],
+"responses": ["partenariat" ],
+"context": [""]
+},
+{"tag": "spantanément",
+"patterns": ["je voulais postuler à un condidat spantané","cc","ff"],
+"responses": ["spantanément"],
+"context": [""]
+}
+       
+  ]
+}
